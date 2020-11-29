@@ -1,37 +1,49 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24pt;
+    font-size: 20pt;
 }
 .inline-block {
     display: inline-block;
     vertical-align: top;
 }
 .logo {
-    width: 23%;
-    text-align: center;
+    text-align: left;
 }
 .nav {
-    width: 73%;
-    padding: 0;
+    padding: 10px;
     text-align: center;
 }
-.ul {
-    width: 50%;
-    margin-left: auto;
-}
 .content {
-    width: 500px;
     margin: 0 auto;
 }
 .footer {
-    display: inline-block;
+    width: 100%;
     vertical-align: top;
 }
 ul {
     vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
 }
 li {
     display: inline-block;
     vertical-align: top;
     text-align: center;
 }
+.heroImg {
+    height: auto;
+    display: flex;
+}
+.container {
+    width: 75%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

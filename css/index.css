@@ -8,14 +8,11 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
 }
-
 #menu{
     width: 100%;
     display: inline-block;
     background-color: transparent;
-
 }
-
 #logo {
     display: inline-block;
     justify-content: flex-start;
@@ -23,7 +20,6 @@ body {
     filter: invert(0);
     vertical-align: middle;
     text-align: left;
-    border: red 1px solid;
 }
 .menu-item {
     display: inline;
@@ -40,7 +36,6 @@ body {
     background-color: white;
     margin: 0px;
     padding: 12px;
-    border: red 1px solid;
 }
 .menu-items {
     justify-content: flex-end;
@@ -49,7 +44,6 @@ body {
     right: 0;
     align-items: center;
 }
-
 .container {
     display: block;
     width: 75%;
@@ -57,62 +51,43 @@ body {
     text-align: left;
     color: white;
 }
-
 .centered {
     display: block;
     width: 50%;
-    left: 100px;
+    left: 50px;
     top: 500px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16pt;
     position: absolute;
-}   
-/*
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
 }
-*/
-/*
-.content {
-    margin: 0 auto;
-}
-
 .footer {
-    width: 100%;
-    vertical-align: top;
-}
-/*
-ul {
-    display: inline-block;
-    vertical-align: center;
-    text-align: center;
-}*/
-/*
-li {
-    display: inline;
-    vertical-align: top;
-    text-align: center;
-}*/
-
-
-
-/*
-.heroImg {
-    height: auto;
     display: flex;
-
-.container {
-    width: 75%;
+    width: 100%;
+}
+#footer-nav {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    padding-right: 20px;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-start;
+}
+#connect-icon {
+    width: 30px;
+    justify-content: flex-end;
     position: relative;
-    text-align: left;
-    color: white;
-  }
-
-.centered {
+    vertical-align: middle;
+    padding: 10px;
+}
+button {
+    margin: 0px;
+    padding: 10px;
+    background-color: lightblue;
+    vertical-align: middle;
+    height: 5vh;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 16pt;
-    position: absolute;
-    top: 80%;
-    left: 10%;
-    /*transform: translate(-50%, -50%);*/
+    border: none;
+}
